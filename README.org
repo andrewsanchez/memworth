@@ -1,0 +1,45 @@
+* Memworth
+** Input words or phrases
+* Plan
+** Use configparser
+   * Capture workflow
+** Set subject
+** Capture items
+   - Destination for captured item depends on the subject
+*** Languages
+    The capturing of an item in the context of language learning will coincide with some immediate output for that item.
+    Should this output (translation, dictionary result, etc.) be immediately captured as well?
+** Process resulting files
+*** Each file gets run through special program depending on subject
+*** Phrases
+**** Open in Google Sheets, translate, and export
+*** Words
+**** Populate .csv with results from Beautfiul Soup
+**** import into Anki 
+* Tasks
+  :PROPERTIES:
+  :CATEGORY: memworth
+  :END:
+** TODO Minimal functionality necessary for a full-time student
+
+   - [ ] Automatic cloze deletion of noun phrases
+   - [ ] Improve collect and organize process
+
+     This is basically a matter of trial and error that comes down to quick capturing and refiling.
+
+     - practice current workflow (with Hannah?)
+     - modify and create functions as necessary
+
+   - [ ] Automatic chunking of org files
+
+   - [ ] Improved remote control for Anki
+     - Must be able to bury cards
+
+   - [ ] Markdown system for generating outlines
+** NEXT Write Forvo scraper
+** DONE Decode wiktionary results and append  to csv
+   :LOGBOOK:
+   CLOCK: [2017-09-16 Sat 12:55]--[2017-09-16 Sat 12:55] =>  0:00
+   :END:
+*  TODO Test for when definition returns a tuple
+*  TODO Test for when definition returns None

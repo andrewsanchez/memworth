@@ -1,0 +1,581 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl" version="XHTML+RDFa 1.0" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    
+	<meta charset="utf-8" />
+<meta name="twitter:url" content="http://www.vandale.nl/opzoeken" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Van Dale" />
+<meta name="description" content="Free Dictionary" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="http://www.vandale.nl/sites/all/themes/vandale/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:url" content="http://www.vandale.nl/opzoeken" />
+<meta property="og:title" content="Gratis woordenboek" />
+<link rel="shortlink" href="http://www.vandale.nl/opzoeken" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="dcterms.title" content="Gratis woordenboek" />
+<meta name="dcterms.type" content="Text" />
+<meta property="og:site_name" content="Van Dale" />
+<meta name="dcterms.format" content="text/html" />
+<meta property="og:type" content="article" />
+  
+    <title>Gratis woordenboek | Van Dale</title>
+    	<meta charset="utf-8" />
+<meta name="twitter:url" content="http://www.vandale.nl/opzoeken" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Van Dale" />
+<meta name="description" content="Free Dictionary" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="http://www.vandale.nl/sites/all/themes/vandale/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:url" content="http://www.vandale.nl/opzoeken" />
+<meta property="og:title" content="Gratis woordenboek" />
+<link rel="shortlink" href="http://www.vandale.nl/opzoeken" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="dcterms.title" content="Gratis woordenboek" />
+<meta name="dcterms.type" content="Text" />
+<meta property="og:site_name" content="Van Dale" />
+<meta name="dcterms.format" content="text/html" />
+<meta property="og:type" content="article" />
+  
+    <style>
+@import url("http://www.vandale.nl/modules/system/system.base.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/system/system.messages.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/system/system.theme.css?ot8e1r");
+</style>
+<style>
+@import url("http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/themes/base/minified/jquery.ui.accordion.min.css?ot8e1r");
+</style>
+<style>
+@import url("http://www.vandale.nl/sites/all/modules/contrib/date/date_api/date.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/date/date_repeat_field/date_repeat_field.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/domain/domain_nav/domain_nav.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/field/theme/field.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/node/node.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/poll/poll.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/search/search.css?ot8e1r");
+@import url("http://www.vandale.nl/modules/user/user.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/views/css/views.css?ot8e1r");
+</style>
+<style>
+@import url("http://www.vandale.nl/sites/all/modules/contrib/ctools/css/ctools.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/panels/css/panels.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/nice_menus/css/nice_menus.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/modules/contrib/nice_menus/css/nice_menus_default.css?ot8e1r");
+</style>
+<style>
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/bootstrap/bootstrap.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/styles.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/jquery.ui.selectmenu.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/csstrexcustom.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/freedictionary-results-v2.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/components/misc.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/vandale.text.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/vandale.base.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/vandale.header.css?ot8e1r");
+@import url("http://www.vandale.nl/sites/all/themes/vandale/css/vandale.footer.css?ot8e1r");
+</style>
+    <script src="http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script src="http://www.vandale.nl/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.vandale.nl/misc/drupal.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/jquery_update/replace/ui/ui/minified/jquery.ui.accordion.min.js?v=1.10.2"></script>
+<script src="http://www.vandale.nl/sites/all/libraries/jquery.bgiframe/jquery.bgiframe.js?v=3.0.1"></script>
+<script src="http://www.vandale.nl/sites/all/libraries/jquery.hoverIntent/jquery.hoverIntent.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/libraries/superfish/superfish.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/nice_menus/js/nice_menus.js?v=1.0"></script>
+<script src="http://www.vandale.nl/sites/default/files/languages/nl_Yyt5Grn2pjw7sx7EOLl41XT0bBcK6vtHTO7kjMcKQ0Y.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/panels/js/panels.js?ot8e1r"></script>
+<script src="//edgecastcdn.net/000540/cdn/client/vandale/init.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/modules/contrib/google_analytics/googleanalytics.js?ot8e1r"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-10061311-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="//cdn.webads.eu/tm/init_vandale.js"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery-migrate-1.2.1.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.ui.selectmenu.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.ui.position.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.simplemodal.1.4.4.min.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.jcarousel.min.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.input_label_handle.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.ezmark.min.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/bootstrap.min.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/jquery.cycle2.min.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/addclear.js?ot8e1r"></script>
+<script src="http://www.vandale.nl/sites/all/themes/vandale/js/scripts.js?ot8e1r"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"vandale","theme_token":"TMnn-19drE9MbJ4AjyHDmgpbPO3VpsZk5KnD4JH6Hyo","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/contrib\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/custom\/vandale_trainingselector\/css\/vandale_trainingselector.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/contrib\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/vandale\/css\/bootstrap\/bootstrap.css":1,"sites\/all\/themes\/vandale\/css\/styles.css":1,"sites\/all\/themes\/vandale\/css\/jquery.ui.selectmenu.css":1,"sites\/all\/themes\/vandale\/css\/csstrexcustom.css":1,"sites\/all\/themes\/vandale\/css\/freedictionary-results-v2.css":1,"sites\/all\/themes\/vandale\/css\/components\/misc.css":1,"sites\/all\/themes\/vandale\/css\/vandale.text.css":1,"sites\/all\/themes\/vandale\/css\/vandale.base.css":1,"sites\/all\/themes\/vandale\/css\/vandale.header.css":1,"sites\/all\/themes\/vandale\/css\/vandale.footer.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/all\/libraries\/jquery.bgiframe\/jquery.bgiframe.js":1,"sites\/all\/libraries\/jquery.hoverIntent\/jquery.hoverIntent.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/modules\/contrib\/nice_menus\/js\/nice_menus.js":1,"public:\/\/languages\/nl_Yyt5Grn2pjw7sx7EOLl41XT0bBcK6vtHTO7kjMcKQ0Y.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"\/\/edgecastcdn.net\/000540\/cdn\/client\/vandale\/init.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"\/\/cdn.webads.eu\/tm\/init_vandale.js":1,"sites\/all\/themes\/vandale\/js\/jquery-migrate-1.2.1.js":1,"sites\/all\/themes\/vandale\/js\/jquery.ui.selectmenu.js":1,"sites\/all\/themes\/vandale\/js\/jquery.ui.position.js":1,"sites\/all\/themes\/vandale\/js\/jquery.simplemodal.1.4.4.min.js":1,"sites\/all\/themes\/vandale\/js\/jquery.jcarousel.min.js":1,"sites\/all\/themes\/vandale\/js\/jquery.input_label_handle.js":1,"sites\/all\/themes\/vandale\/js\/jquery.ezmark.min.js":1,"sites\/all\/themes\/vandale\/js\/bootstrap.min.js":1,"sites\/all\/themes\/vandale\/js\/jquery.cycle2.min.js":1,"sites\/all\/themes\/vandale\/js\/addclear.js":1,"sites\/all\/themes\/vandale\/js\/scripts.js":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"nice_menus_options":{"delay":800,"speed":"slow"},"clientsideValidation":{"general":{"months":{"januari":1,"Jan":1,"februari":2,"Feb":2,"maart":3,"Mar":3,"april":4,"Apr":4,"mei":5,"juni":6,"Jun":6,"juli":7,"Jul":7,"augustus":8,"Aug":8,"september":9,"Sep":9,"oktober":10,"Okt":10,"november":11,"Nov":11,"december":12,"Dec":12}}}});</script>
+	<script type="text/javascript">var switchTo5x=true;</script>
+ 
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+stLight.options({
+    onhover: false
+});
+</script>
+
+	
+</head>
+
+<!--[if IE 7 ]> <body class="not-front opzoeken not-logged-in ie7"> <![endif]-->
+<!--[if IE 8 ]> <body class="not-front opzoeken not-logged-in ie8"> <![endif]-->
+<!--[if IE 9 ]> <body class="not-front opzoeken not-logged-in ie9"> <![endif]-->
+<!--[if !IE ]><!-->
+<body class="not-front opzoeken not-logged-in html not-front not-logged-in one-sidebar sidebar-second page-opzoeken domain-www-vandale-nl i18n-nl section-opzoeken page-views" >
+<!--<![endif]-->
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="main-container">
+
+  <div id="page">
+      <div id="header">
+    <div class="content-page container">
+      <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3 col-md-offset-9 col-sm-offset-8">
+                      <a href="/inloggen" id="login-btn" title="Inloggen Van Dale Online">
+              Inloggen Van Dale Online            </a>
+            <div class="main-menu-top2">
+                          </div><!-- /.main-menu-top2 -->        
+                  </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3 col-md-2 col-xs-12">
+          <div class="logo">
+                          <h1 class="site-logo"><a href="/" title="Van Dale"><img src="http://www.vandale.nl/sites/all/themes/vandale/logo.png" alt="Van Dale" /></a></h1>       
+            
+                        <div class="navbar navbar-default navbar-logo" role="navigation">
+             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-container">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.logo -->
+        <div class="col-sm-9 col-md-10 col-xs-12">
+          <div class="main-menu-top navbar navbar-default" role="navigation">
+            <!--<div class="container-fluid">-->
+              <div class="main-menu collapse navbar-collapse" id="main-menu-container">
+                                  <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-0"><li class="menu__item menu-8995 menuparent  menu-path-front first odd "><a href="/" title="" class="menu__link">Taalpodium</a><ul><li class="menu__item menu-9054 menu-path-svandalenl-inloggen first odd last"><a href="https://vandale.nl/inloggen" title="" class="menu__link">Inloggen Van Dale Online</a></li>
+</ul></li>
+<li class="menu__item menu-2599 menuparent  menu-path-opzoeken active-trail  even "><a href="/opzoeken" title="" class="menu__link active">Gratis woordenboek</a><ul><li class="menu__item menu-9015 menu-path-vandalenl-rijmwoordenboek first odd "><a href="http://www.vandale.nl/rijmwoordenboek" title="Rijmwoordenboek" class="menu__link">Gratis Rijmwoordenboek</a></li>
+<li class="menu__item menu-9051 menu-path-vandalenl-puzzels  even last"><a href="http://vandale.nl/puzzels" title="" class="menu__link">Gratis puzzels</a></li>
+</ul></li>
+<li class="menu__item menu-640 menuparent  menu-path-webwinkelvandalenl-  odd "><a href="http://webwinkel.vandale.nl/" title="" class="menu__link">Webwinkel</a><ul><li class="menu__item menu-9055 menu-path-webwinkelvandalenl-acties first odd "><a href="http://webwinkel.vandale.nl/acties" title="" class="menu__link">Acties</a></li>
+<li class="menu__item menu-9056 menu-path-swebwinkelvandalenl-van-dale-top-10  even last"><a href="https://webwinkel.vandale.nl/van-dale-top-10" title="" class="menu__link">Top 10</a></li>
+</ul></li>
+<li class="menu__item menu-3647 menuparent  menu-path-node-465  even "><a href="/vertaalbureau" class="menu__link">Vertaalbureau</a><ul><li class="menu__item menu-9420 menuparent  menu-path-node-402 first odd "><a href="/vertaalbureau/talen" class="menu__link">Talen</a><ul><li class="menu__item menu-9440 menu-path-node-555 first odd "><a href="/vertaalbureau/engels-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Engelse vertalingen</a></li>
+<li class="menu__item menu-9441 menu-path-node-556  even "><a href="/vertaalbureau/duits-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Duitse vertalingen</a></li>
+<li class="menu__item menu-9442 menu-path-node-557  odd "><a href="/vertaalbureau/frans-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Franse vertalingen</a></li>
+<li class="menu__item menu-9445 menu-path-node-558  even "><a href="/vertaalbureau/spaans-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Spaanse vertalingen</a></li>
+<li class="menu__item menu-9447 menu-path-node-559  odd "><a href="/vertaalbureau/italiaans-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Italiaanse vertalingen</a></li>
+<li class="menu__item menu-9448 menu-path-node-560  even "><a href="/vertaalbureau/portugees-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Portugese vertalingen</a></li>
+<li class="menu__item menu-9450 menu-path-node-561  odd last"><a href="/vertaalbureau/zweeds-vertaalbureau-van-dale-vertalingen" title="" class="menu__link">Zweedse vertalingen</a></li>
+</ul></li>
+<li class="menu__item menu-9421 menu-path-node-381  even "><a href="/vertaalbureau/financieel-vertaalbureau-van-dale" title="" class="menu__link">Financiële vertaling</a></li>
+<li class="menu__item menu-9423 menu-path-node-391  odd "><a href="/vertaalbureau/juridisch-vertaalbureau-van-dale" title="" class="menu__link">Juridische vertaling</a></li>
+<li class="menu__item menu-9424 menu-path-node-390  even "><a href="/vertaalbureau/medisch-vertaalbureau-van-dale" title="" class="menu__link">Medische vertaling</a></li>
+<li class="menu__item menu-9425 menu-path-node-387  odd "><a href="/vertaalbureau/technisch-vertaalbureau-van-dale" title="" class="menu__link">Technische vertaling</a></li>
+<li class="menu__item menu-9426 menu-path-node-384  even "><a href="/vertaalbureau/vertaling-van-beleidsteksten" title="" class="menu__link">Vertaling beleidsteksten</a></li>
+<li class="menu__item menu-9428 menu-path-node-400  odd "><a href="/vertaalbureau/marketing-en-communicatievertaling" title="" class="menu__link">Vertaling marketing- en communicatieteksten</a></li>
+<li class="menu__item menu-9429 menu-path-node-401  even "><a href="/vertaalbureau/vertaling-jaarverslagen-en-corporate-communicatie" title="" class="menu__link">Vertaling jaarverslagen en corporate communicatie</a></li>
+<li class="menu__item menu-9430 menu-path-node-399  odd "><a href="/vertaalbureau/beedigde-vertaling" class="menu__link">Beëdigde vertaling</a></li>
+<li class="menu__item menu-9431 menu-path-node-398  even "><a href="/vertaalbureau/kwaliteit" class="menu__link">Kwaliteit</a></li>
+<li class="menu__item menu-9433 menu-path-node-427  odd "><a href="/vertaalbureau/speciale-wensen" class="menu__link">Speciale wensen</a></li>
+<li class="menu__item menu-9434 menu-path-node-397  even "><a href="/vertaalbureau/werkwijze" class="menu__link">Werkwijze</a></li>
+<li class="menu__item menu-9436 menu-path-node-396  odd "><a href="/vertaalbureau/over-van-dale-vertalingen" class="menu__link">Over Van Dale Vertalingen</a></li>
+<li class="menu__item menu-9057 menu-path-vandalenl-vertaalbureau-offerte-aanvragen  even last"><a href="http://www.vandale.nl/vertaalbureau/offerte-aanvragen" title="" class="menu__link">Offerte aanvragen</a></li>
+</ul></li>
+<li class="menu__item menu-641 menuparent  menu-path-node-512  odd "><a href="/taaltrainingen" class="menu__link">Taaltrainingen</a><ul><li class="menu__item menu-8988 menu-path-vandalenl-taaltrainingen-trainingsagenda-van-dale-taaltrainingen first odd "><a href="http://www.vandale.nl/taaltrainingen/trainingsagenda-van-dale-taaltrainingen" title="" class="menu__link">Trainingsagenda 2017</a></li>
+<li class="menu__item menu-9422 menu-path-node-472  even "><a href="/taaltrainingen/lastminutetaaltrainingen" class="menu__link">Lastminutetaaltrainingen</a></li>
+<li class="menu__item menu-9048 menu-path-node-1748  odd "><a href="/taaltrainingen/taaltraining-werkwoordspelling" class="menu__link">Nieuw: Werkwoordspelling</a></li>
+<li class="menu__item menu-8989 menu-path-vandalenl-taaltrainingen-taaltraining-correct-nederlands  even "><a href="http://vandale.nl/taaltrainingen/taaltraining-correct-nederlands" title="" class="menu__link">Correct Nederlands</a></li>
+<li class="menu__item menu-8990 menu-path-vandalenl-taaltrainingen-taaltraining-helder-zakelijk-schrijven  odd "><a href="http://vandale.nl/taaltrainingen/taaltraining-helder-zakelijk-schrijven" title="" class="menu__link">Helder zakelijk schrijven</a></li>
+<li class="menu__item menu-8991 menu-path-vandalenl-taaltrainingen-taaltraining-zakelijke-correspondentie  even "><a href="http://vandale.nl/taaltrainingen/taaltraining-zakelijke-correspondentie" title="" class="menu__link">Zakelijke correspondentie</a></li>
+<li class="menu__item menu-9427 menu-path-vandalenl-taaltrainingen-masterclass-nederlands  odd "><a href="http://vandale.nl/taaltrainingen/masterclass-nederlands" title="" class="menu__link">Masterclass Nederlands</a></li>
+<li class="menu__item menu-9432 menuparent  menu-path-node-489  even "><a href="/taaltrainingen/taaltraining-zakelijk-nederlands" class="menu__link">Meer Taaltrainingen Nederlands</a><ul><li class="menu__item menu-9435 menu-path-node-475 first odd "><a href="/taaltrainingen/taaltraining-zakelijk-nederlands-voor-anderstaligen-spreken" class="menu__link">Nederlands anderstaligen spreken</a></li>
+<li class="menu__item menu-9437 menu-path-node-474  even "><a href="/taaltrainingen/taaltraining-zakelijk-nederlands-voor-anderstaligen-schrijven" class="menu__link">Nederlands anderstaligen schrijven</a></li>
+<li class="menu__item menu-9438 menu-path-node-737  odd last"><a href="/taaltrainingen/testimonials-taaltrainingen" class="menu__link">Testimonials</a></li>
+</ul></li>
+<li class="menu__item menu-9439 menuparent  menu-path-node-517  odd "><a href="/taaltrainingen/taaltraining-zakelijk-engels" class="menu__link">Taaltraining Zakelijk Engels</a><ul><li class="menu__item menu-9452 menu-path-node-473 first odd "><a href="/taaltrainingen/taaltraining-zakelijk-engels-voor-officemanagers" class="menu__link">Zakelijk Engels officemanagers</a></li>
+<li class="menu__item menu-9443 menu-path-node-471  even "><a href="/taaltrainingen/taaltraining-zakelijk-engels-e-mail-en-telefoongesprekken" class="menu__link">Zakelijk Engels: e-mail en telefoon</a></li>
+<li class="menu__item menu-9446 menu-path-node-487  odd "><a href="/taaltrainingen/taaltraining-zakelijk-engels-presenteren" class="menu__link">Zakelijk Engels: presenteren</a></li>
+<li class="menu__item menu-9449 menu-path-node-486  even last"><a href="/taaltrainingen/taaltraining-zakelijk-engels-rapporteren" class="menu__link">Zakelijk Engels: rapporteren</a></li>
+</ul></li>
+<li class="menu__item menu-8993 menu-path-vandalenl-taaltrainingen-maatwerk-in-company  even "><a href="http://www.vandale.nl/taaltrainingen/maatwerk-in-company" title="" class="menu__link">Maatwerk / In-company</a></li>
+<li class="menu__item menu-8992 menu-path-vandalenl-taaltrainingen-taaltraining-zakelijk-nederlands  odd "><a href="http://vandale.nl/taaltrainingen/taaltraining-zakelijk-nederlands" title="" class="menu__link">Overige taaltrainingen</a></li>
+<li class="menu__item menu-9453 menu-path-vandalenl-taaltrainingen-taalsnacks-correct-nederlands  even "><a href="http://www.vandale.nl/taaltrainingen/taalsnacks-correct-nederlands" title="" class="menu__link">Van Dale Taalsnacks</a></li>
+<li class="menu__item menu-9454 menuparent  menu-path-node-448  odd last"><a href="/taaltrainingen/contact" class="menu__link">Contact / locaties</a><ul><li class="menu__item menu-9455 menu-path-node-513 first odd "><a href="/taaltrainingen/locaties" class="menu__link">Trainingslocaties</a></li>
+<li class="menu__item menu-9456 menuparent  menu-path-node-519  even last"><a href="/taaltrainingen/over-van-dale-taaltrainingen" class="menu__link">Over Van Dale Taaltrainingen</a><ul><li class="menu__item menu-9457 menu-path-node-518 first odd "><a href="/taaltrainingen/trainingsvormen" class="menu__link">Trainingsvormen</a></li>
+<li class="menu__item menu-9458 menu-path-node-516  even "><a href="/taaltrainingen/kwaliteit" class="menu__link">Kwaliteit</a></li>
+<li class="menu__item menu-9459 menu-path-node-515  odd last"><a href="/taaltrainingen/werkwijze" class="menu__link">Werkwijze</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="menu__item menu-1492 menuparent  menu-path-ondersteuning  even last"><a href="/vraagbaak" title="" class="menu__link">Ondersteuning</a><ul><li class="menu__item menu-9058 menu-path-vandalenl-vraagbaak-meestgestelde-vragen first odd last"><a href="http://vandale.nl/vraagbaak/meestgestelde-vragen" title="" class="menu__link">Meestgestelde vragen</a></li>
+</ul></li>
+</ul>
+                              </div><!-- /.main-menu-->
+            <!--</div>--><!-- /.container-fluid-->
+          </div><!-- /.main-menu-top-->
+        </div>
+      </div>
+    </div><!-- /header wrapper -->
+  </div> <!-- /#header -->
+    <!--banner region-->
+    
+    <div id="content-top" class="form">
+      <div class="wrapper container">
+        <div class="row">
+          <div class="col-sm-12">
+
+              <div class="region region-content-top">
+    <div class="contextual-links-region">
+      <div class="col-sm-10 col-sm-offset-1">
+    <form name="free_dictionary_form" id="translate-form" class="form-inline row" method="get" action="/opzoeken">
+      <div class="form-group col-sm-10">
+        <label style="display:none;" for="pattern">zweverig</label>
+        <input type="text" id="pattern" name="pattern" maxlength="45" value="zweverig" />
+        <input type="hidden" id="hidden_text" value="zweverig" />
+        <select id="translate-options" name="lang">
+          <option value="nn" >Nederlands | nl-nl</option>
+          <option value="ne" >Nederlands / Engels | nl-en</option>
+          <option value="en" >Engels / Nederlands | en-nl</option>
+          <option value="nf" >Nederlands / Frans | nl-fr</option>
+          <option value="fn" >Frans / Nederlands | fr-nl</option>
+          <option value="nd" >Nederlands / Duits | nl-du</option>
+          <option value="dn" >Duits / Nederlands | du-nl</option>
+          <option value="ns" >Nederlands / Spaans | nl-sp</option>
+          <option value="sn" >Spaans / Nederlands | sp-nl</option>
+          <option value="ni" >Nederlands / Italiaans | nl-it</option>
+          <option value="in" >Italiaans / Nederlands | it-nl</option>
+          <option value="np" >Nederlands / Portugees | nl-pt</option>
+          <option value="pn" >Portugees / Nederlands | pt-nl</option>
+          <option value="nz" >Nederlands / Zweeds | nl-zw</option>
+          <option value="zn" >Zweeds / Nederlands | zw-nl</option>
+        </select>
+      </div>
+      <div class="form-group col-sm-2 clearfix">
+        <input type="submit" id="translate-submit" value="Zoek" />
+      </div>
+    </form>
+  </div>
+</div><!-- /.contextual-links-region -->
+  </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+                      </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="wrapper container">
+        <div class="section">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="data-links-section">
+                                                                              </div><!-- /.data-links-section -->
+            </div>
+          </div>
+
+          <div class="row">
+            
+                                                              
+            
+            <div class="col-sm-8">
+              
+              <div id="content" class="column">
+                
+                
+                                  <div class="tabs"></div>
+                
+                
+                <div id="content-area">
+                                    
+
+
+    
+    <h1 class="title">
+        Geen resultaat voor        ' zweverig '
+    </h1>
+    <p>
+        Het woord is verkeerd gespeld of het staat niet in het gratis woordenboek. <br><br><a href="http://webwinkel.vandale.nl/verschijningsvorm/abonnementen">Wil je meer woorden en mogelijkheden? Neem een abonnement.</a>    </p>
+        
+        
+        <div id="register-description">
+            <div id="internal-div-registration-description">
+                <h2>Dit woord opzoeken in onze grootste woordenboeken?</h2>
+                <p><span><a id="registation-description-link" href="http://webwinkel.vandale.nl/online-1">Bestel nu uw toegang</a></span> of probeer Van Dale Online gratis. U krijgt direct en zonder verdere verplichtingen drie dagen toegang tot de beste
+                   taalhulpmiddelen van Van Dale.</p>
+                <div id="button-registration-description" type="button"><h3><a class="menu__link" href="#">Gratis proberen</a><h3></div>
+            </div>
+        </div>
+        <div id="new-frame-register">
+                    </div>
+        
+        
+                    </div>
+              </div>
+            </div> <!-- /#content -->
+                          <div class="col-sm-4">
+                <div id="sidebar">
+                    <section class="region region-sidebar-second column sidebar">
+    <div id="block---block-28" class="block block-block first last odd  contextual-links-region">
+    <h2></h2>
+    
+              
+      <div class="block-content">
+      <!-- banner -->
+    </div>
+  
+</div>  </section>
+                </div>
+              </div>
+                      </div>
+
+                      <div class="row">
+              <div class="col-sm-12">
+                  <div class="region region-content-bottom">
+    <div id="block---views-free_dictionary_view-block_1" class="block block-views first last odd  contextual-links-region">
+    <h2></h2>
+    
+  
+      <div class="block-content">
+      <div class="view view-free-dictionary-view view-id-free_dictionary_view view-display-id-block_1 view-dom-id-cce201d6aff80146d5e1d7506d9ac2e3">
+	<h2></h2>
+		    
+      
+  <div class="views-field views-field-body">        <div class="field-content"><span style="color:#ff1818;font-size:11pt;font-weight:bold;">Let op: <br>
+Het gratis onlinewoordenboek bevat een beperkt aantal woorden en mogelijkheden.</span><span style="font-size:11pt;font-weight:bold;"><br><br>Voor meer woorden en functionaliteiten klik <a href="http://goo.gl/u7LJ6" title="Van Dale Online">hier</a> en probeer gratis en zonder verplichtingen de Dikke Van Dale Online.</span>
+
+<br><br>
+
+
+<span style="color:#4e4890;font-size:13pt;font-weight:bold;"><a style="color:#4e4890;font-size:13pt;font-weight:bold;" target="blank" href="http://www.vandale.nl/rijmwoordenboek/rijm/zweverig ">Klik hier om te rijmen op  'zweverig'  in het Van Dale Rijmwoordenboek</a></span><br/><br/>
+
+
+<p>© Van Dale Uitgevers 2017</p><br>
+<br><br>
+
+<script src='https://restapi.mailplus.nl/integrationservice-1.1.0/app/subscribe_popup/jwqe3WpEUNfp4r4XVpOhYfxpckjGbL2J/jRWRGinvCEe2BJY9qKSE3h4SIKYMEkIE'></script>
+
+<div data-widget=" plista_widget_belowArticle"></div>
+
+<script type="text/javascript">
+if (!window.PLISTA) {
+window.PLISTA = {publickey: '50c9eb41823a0107ba15ff84'};
+(function(){var n='script',d=document,s=d.createElement(n),s0=d.getElementsByTagName(n)[0];
+s.async='async';s.type='text/javascript';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//static.plista.com/async.js';s0.parentNode.insertBefore(s,s0)}());
+}
+</script>
+</body>
+
+<div data-widget="plista_widget_belowArticle"></div>
+
+
+<script type="text/javascript">
+if (!window.PLISTA) {
+     window.PLISTA = {
+        publickey: '50c9eb41823a0107ba15ff84',
+        
+    (function(){var n='script',d=document,s=d.createElement(n),s0=d.getElementsByTagName(n)[0];s.async='async';s.type='text/javascript';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//static.plista.com/async.js';s0.parentNode.insertBefore(s,s0)}());
+}
+</script>
+</body>
+
+
+<div id="adcontainer1" style="float: left;margin-left:5px"></div>
+<div id="adcontainer2" style="float: left;margin-left:24px"></div>
+<div style="clear:both"></div>
+<script src="http://www.google.com/adsense/search/ads.js" type="text/javascript"></script> 
+<script type="text/javascript" charset="utf-8"> 
+var zoekwoord = "zweverig";
+var pageOptions = { 
+  'pubId' : 'pub-7820948778464472',
+  'query' : zoekwoord,
+  'hl' : 'nl'
+};
+
+var adblock1 = { 
+  'container' : 'adcontainer1',
+  'colorTitleLink' : '#413b83',
+  'colorText' : '#666666',
+  'colorDomainLink' : '#C1001F',
+  'width' : '305px',
+  'margin-left' : '5px',
+  'number' : '1'
+};
+
+var adblock2 = { 
+  'container' : 'adcontainer2',
+  'colorTitleLink' : '#413b83',
+  'colorText' : '#666666',
+  'colorDomainLink' : '#C1001F',
+  'width' : '305px',
+  'margin-left' : '14px',
+  'number' : '1'
+};
+new google.ads.search.Ads(pageOptions, adblock1, adblock2);
+</script>	
+
+
+<br>
+
+----------------------------------------------------------
+<br><br>
+
+Van Dale Uitgevers</br>
+onderdeel van VBK Uitgevers bv</br>
+Postbus 13288</br>
+3507 LG Utrecht</br>
+KvK-nummer: 30068750</br>
+BTW NL.0016.60.627.B01</br>
+</div>  </div> 
+	
+  </div>
+    </div>
+  
+</div>  </div>
+              </div>
+            </div>
+          
+                      <div class="row">
+              <div class="col-sm-12">
+                              </div>
+            </div>
+                  </div> <!-- /.section -->
+
+      </div> <!-- /.wrapper -->
+    </div> <!-- /#main -->
+  </div> <!-- /#page, -->
+
+   <div class="footer">
+              <div id="footer-top" class="footer-top">
+          <div class="content-page container">
+            <div class="row">
+                <footer id="footer" class="region region-footer">
+    <div id="block-block-5" class="block over-vandaleblock block-block col-sm-12 col-md-6 first odd">
+			<h4>
+			Over Van Dale		</h4>
+		<p><span style="font-family: 'Calibri','sans-serif';">Van Dale Uitgevers is de meest toonaangevende en gezaghebbende uitgever van woordenboeken in Nederland en België. Van Dale verzorgt een groot en gevarieerd aanbod met tientallen titels op taalgebied om taalgebruikers effectief te ondersteunen. Met zorgvuldigheid en respect beschrijft Van Dale de taal zo compleet mogelijk, niet alleen het Nederlands, maar ook vreemde talen. <br></span></p>
+
+
+
+<script src="http://ads.creative-serving.com/pixel?id=3113889&type=js"></script>
+<script src="http://www.vandale.nl/tt/cookieControl-5.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">//<![CDATA[
+  cookieControl({
+      introText:'<p>Deze site gebruikt cookies.</p>',
+      fullText:'<p>Om vandale.nl goed te laten functioneren, maken we gebruik van cookies. Meer over ons <a href="http://www.vandale.nl/inhoudspaginas/colofon#Privacybeleid">cookiebeleid</a>.</p>',
+      position:'right', // left or right
+      shape:'diamond', // triangle or diamond
+      theme:'light', // light or dark
+      startOpen:true,
+      autoHide:5000,
+      subdomains:true,
+      protectedCookies: [], //list the cookies you do not want deleted ['analytics', 'twitter']
+      consentModel:'information_only',
+      onAccept:function(){ccAddAnalytics()},
+      onReady:function(){},
+      onCookiesAllowed:function(){ccAddAnalytics()},
+      onCookiesNotAllowed:function(){},
+      countries:'Netherlands' // Or supply a list ['United Kingdom', 'Greece']
+      });
+
+      function ccAddAnalytics() {
+        jQuery.getScript("http://www.google-analytics.com/ga.js", function() {
+          var GATracker = _gat._createTracker('');
+          GATracker._trackPageview();
+        });
+      }
+   //]]>
+</script>  
+
+<script type="text/javascript">
+(function(){"use strict";var e=null,b="4.0.1",
+n="10290",
+additional="",
+t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.steelhousemedia.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+</script><!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5017dfd9535a879f"></script>
+		</div> <!-- /.block -->
+<div id="block-menu-menu-servicepagina" class="block block block-menu col-sm-4 col-md-2 even" role="navigation">
+			<h4>
+			Servicepagina’s		</h4>
+		<ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://webwinkel.vandale.nl/acties" title="" class="menu__link">Acties</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.vandale.nl/nieuwsbrief-aanmelden" title="" class="menu__link">Nieuwsbrief</a></li>
+<li class="menu__item is-leaf leaf"><a href="/persberichten" title="" class="menu__link">Persberichten</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://vandale.nl/partners" title="" class="menu__link">Partners</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/inhoudspaginas/over-van-dale" title="" class="menu__link">Over Van Dale</a></li>
+</ul>		</div> <!-- /.block -->
+<div id="block-menu-menu-meer-van-dale" class="block block block-menu col-sm-4 col-md-2 odd" role="navigation">
+			<h4>
+			Meer Van Dale		</h4>
+		<ul class="menu"><li class="menu__item is-leaf first leaf"><a href="http://www.vandale.nl/online-op-school?utm_source=Homepage+-+footer&amp;utm_medium=Tekstlink&amp;utm_campaign=VD+-+school" title="" class="menu__link">Van Dale op school</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.vandale.nl/woord-van-de-dag" title="" class="menu__link">Woord van de Dag</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://www.vandale.nl/woord-van-de-maand" title="" class="menu__link">Woord van de Maand</a></li>
+<li class="menu__item is-leaf leaf"><a href="http://vandale.nl/taalzaken" title="" class="menu__link">Van Dale Taalzaken</a></li>
+<li class="menu__item is-leaf last leaf"><a href="http://www.vandale.nl/rijmwoordenboek" title="" class="menu__link">Gratis rijmwoordenboek</a></li>
+</ul>		</div> <!-- /.block -->
+<div id="block-menu-menu-contact" class="block block block-menu col-sm-4 col-md-2 even" role="navigation">
+			<h4>
+			Contact		</h4>
+		<ul class="menu"><li class="menu__item is-leaf first leaf"><a href="/contact" title="" class="menu__link">Contact</a></li>
+<li class="menu__item is-leaf leaf"><a href="/inhoudspaginas/routebeschrijving" title="" class="menu__link">Routebeschrijving</a></li>
+<li class="menu__item is-leaf last leaf"><a href="/vacatures" title="" class="menu__link">Vacatures</a></li>
+</ul>		</div> <!-- /.block -->
+<div id="block-block-84" class="block block block-block last odd">
+		<div id="om-xlart5ig3diocurp-holder"></div><script>var xlart5ig3diocurp,xlart5ig3diocurp_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){xlart5ig3diocurp_poll(function(){if(window['om_loaded']){if(!xlart5ig3diocurp){xlart5ig3diocurp=new OptinMonsterApp();return xlart5ig3diocurp.init({u:"9395.190235",staging:0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optinmonster.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;xlart5ig3diocurp=new OptinMonsterApp();xlart5ig3diocurp.init({u:"9395.190235",staging:0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
+<div id="om-w2nu1wcxxgknsah3-holder"></div><script>var w2nu1wcxxgknsah3,w2nu1wcxxgknsah3_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){w2nu1wcxxgknsah3_poll(function(){if(window['om_loaded']){if(!w2nu1wcxxgknsah3){w2nu1wcxxgknsah3=new OptinMonsterApp();return w2nu1wcxxgknsah3.init({"u":"9395.356441","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;w2nu1wcxxgknsah3=new OptinMonsterApp();w2nu1wcxxgknsah3.init({"u":"9395.356441","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->		</div> <!-- /.block -->
+  </footer>
+            </div>
+          </div>
+        </div>
+         
+      <div class="footer-bottom">
+        <div class="content-page container">
+          <div class="row">
+          	<div class="col-xs-12 col-sm-5">
+            	<p id="copyright" class="copyright">&copy; Copyright 2017 Van Dale Uitgevers</p>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+	            <div class="footer-right ">
+	              <ul class="footer-menu bottom" id="bottom"><li class="menu-1236 first"><a href="/sitemap" title="">Sitemap</a></li>
+<li class="menu-1305"><a href="/inhoudspaginas/colofon" title="">Colofon</a></li>
+<li class="menu-1239 last"><a href="/inhoudspaginas/algemene-voorwaarden" title="">Voorwaarden</a></li>
+</ul>	              <ul class="social-networks socialmedia">
+	                <li>
+	                  <a href="http://www.linkedin.com/company/van-dale-uitgevers" title="Join us on Linkedin" target="_blank">
+	                    <img src="/sites/all/themes/vandale/img/in-icon.png" alt="Linkedin" />
+	                  </a>
+	                </li>
+	                <li>
+	                  <a href="http://www.facebook.com/VanDaleUitgevers" title="Join us on Facebook" target="_blank">
+	                    <img src="/sites/all/themes/vandale/img/facebook-icon.png" alt="Facebook" />
+	                  </a>
+	                </li>
+	                <li>
+	                  <a href="http://twitter.com/vandaleuitgever" title="Follow us on Twitter" target="_blank">
+	                    <img src="/sites/all/themes/vandale/img/twitter-icon.png" alt="Twitter" />
+	                  </a>
+	                </li>
+	              </ul><!--/.social-networks-->
+	            </div>
+	          </div>
+          </div>
+        </div><!-- /.footer-right -->
+      </div><!--/.footer-bottom-->
+  </div> <!-- /.footer, /#footer --></div><!-- /.container -->
+
+  </body>
+</html>
