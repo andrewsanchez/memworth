@@ -11,6 +11,8 @@ class Word:
             "woorden": "http://www.woorden.org/woord/{}".format(word),
         }
         self.make_soup(self.urls["woorden"])
+        self.examples = []
+        self.related_words = []
 
     def make_soup(self, url):
         r = requests.get(url)
@@ -36,20 +38,22 @@ class Word:
             self.definitions = ['']
 
     def exemplify(self):
-        self.woorden_examples = []
-        for tag in self.soup.find_all('font'):
-            if not tag.find('b'):
-                self.woorden_examples.append(tag.text)
-        # Decode
-        self.woorden_examples = [bytes(i, 'latin1').decode()
-                                 for i in self.woorden_examples]
-        # Clean up
-        self.woorden_examples = [i.replace('`', '') for
-                                 i in self.woorden_examples]
-        # Related words
-        related_words = []
-        for tag in self.soup.find_all('a'):
-            if tag.find_all('u') and \
-               tag.text != 'Toon uitgebreidere definities':
-                related_words.append(tag.text)
-        self.woorden_related = related_words
+        m = self.soup.find_all('font')
+        m = (tag for tag in m if not tag.find('b'))
+        for tag in m:
+            txt = tag.text
+            decoded = bytes(txt, 'latin1').decode()
+            cleaned = decoded.replace('`', '')
+            self.examples.append(cleaned)
+        if not self.examples:
+            self.examples = ['']
+
+    def related(self):
+        m = self.soup.find_all('a')
+        m = (tag.text for tag in m if tag.find_all('u'))
+        unwanted = 'Toon uitgebreidere definities'
+        m = (i for i in m if i != unwanted)
+        m = filter(lambda x: x != unwanted, m)
+        self.related_words = list(m)
+        if not self.related_words:
+            self.related_words = ['']

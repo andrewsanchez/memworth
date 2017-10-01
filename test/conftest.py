@@ -8,4 +8,6 @@ from memworth.scraper import Word
 def words(request):
     word = Word(request.param)
     word.define()
+    word.exemplify()
+    word.related()
     yield word
