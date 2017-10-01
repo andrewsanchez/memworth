@@ -1,3 +1,5 @@
+import re
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -5,39 +7,37 @@ from bs4 import BeautifulSoup
 class Word:
     def __init__(self, word):
         self.word = word
+        self.urls = {
+            "woorden": "http://www.woorden.org/woord/{}".format(word),
+        }
+        self.make_soup(self.urls["woorden"])
 
     def make_soup(self, url):
         r = requests.get(url)
-        soup = BeautifulSoup(r.text, "lxml")
-        return soup
+        self.soup = BeautifulSoup(r.text, "lxml")
 
     def raw_html(self, results):
         html = bytes(str(results), 'utf8').decode()
         html = html.replace(u'\xa0', u' ')
         html = html.replace(u'\n', u'<br>')
-        return html
+        self.html = html
 
-    def wiktionary(self):
-        url = "https://nl.wiktionary.org/wiki/" + self.word
-        soup = self.make_soup(url)
-        self.wiktionary_results = soup.ol
-        self.wiktionary_html = self.raw_html(self.wiktionary_results)
+    def define(self):
+        m = self.soup.find_all('font')
+        m = (tag for tag in m if tag.find('b'))
+        m = (tag.text for tag in m)
+        m = [tag for tag in m if not re.match('^\d', tag)]
+        # Functional equivalents
+        # m = filter(lambda tag: tag.find('b'), m)
+        # m = map(lambda x: x.text, m)
+        # m = filter(lambda x: not re.match('^\d', x), m)
+        self.definitions = m
+        if not m:
+            self.definitions = ['']
 
-    def woorden(self):
-        url = "http://www.woorden.org/woord/" + self.word
-        self.woorden_soup = self.make_soup(url)
-        definitions = []
-        for tag in self.woorden_soup.find_all('font'):
-            if tag.find('b'):
-                definitions.append(tag.text)
-        if len(definitions) == 1:
-            self.woorden_definitions = definitions
-        else:
-            self.woorden_definitions = []
-            for i in zip(definitions[0::2], definitions[1::2]):
-                self.woorden_definitions.append(i)
+    def exemplify(self):
         self.woorden_examples = []
-        for tag in self.woorden_soup.find_all('font'):
+        for tag in self.soup.find_all('font'):
             if not tag.find('b'):
                 self.woorden_examples.append(tag.text)
         # Decode
@@ -48,7 +48,7 @@ class Word:
                                  i in self.woorden_examples]
         # Related words
         related_words = []
-        for tag in self.woorden_soup.find_all('a'):
+        for tag in self.soup.find_all('a'):
             if tag.find_all('u') and \
                tag.text != 'Toon uitgebreidere definities':
                 related_words.append(tag.text)
