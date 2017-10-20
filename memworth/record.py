@@ -1,6 +1,9 @@
-import pandas as pd
 import os
-import memworth.scraper as scraper
+
+import pandas as pd
+
+from memworth.media import media
+from memworth.scraper import Word
 
 
 class Record:
@@ -8,50 +11,40 @@ class Record:
         self.path = path
         self.collection_file = pd.read_csv(path, index_col=0, header=None)
         self.collection_file.columns = ["tags"]
+        self.collection_file = self.collection_file[
+            ~self.collection_file.index.duplicated(keep='first')]
         self.phrases = pd.DataFrame()
-        self.anki_file = pd.DataFrame()
+        self.cards = pd.DataFrame()
+        self.unresolved = []
 
     def extract_phrases(self):
         phrases = []
-        for row in self.collection_file.index:
-            if len(row.split(' ')) != 1:
-                phrases.append(row)
+        phrases = (i for i in self.collection_file.index
+                   if len(i.split(' ')) > 1)
         self.phrases = pd.DataFrame(index=phrases)
         self.words = self.collection_file.drop(self.phrases.index)
 
-    def add_woorden_info(self):
+    def populate(self):
         for word in self.words.index:
-            query = scraper.Word(word)
-            query.woorden()
-            definitions = query.woorden_definitions
-            examples = query.woorden_examples
-            related = query.woorden_related
-            print(word)
-            print(definitions)
-            print(examples)
-            print(related)
-            try:
-                self.words.loc[word, 'Definitions'] = '<br>'.join(definitions)
-                self.words.loc[word, 'Examples'] = '<br>'.join(examples)
-                self.words.loc[word, 'Related'] = '<br>'.join(related)
-                self.anki_file.loc[word, 'Definitions'] = '<br>'.join(definitions)
-                self.anki_file.loc[word, 'Examples'] = '<br>'.join(examples)
-                self.anki_file.loc[word, 'Related'] = '<br>'.join(related)
-            except IndexError:
-                continue
+            w = Word(word)
+            w.get_word_data()
+            if w.definitions:
+                w.definitions.insert(0, media['definities'])
+                w.examples.insert(0, media['voorbeelden'])
+                w.related.insert(0, media['gereleateerde'])
+                definitions = '<br>'.join(w.definitions)
+                examples = '<br>'.join(w.examples)
+                related = '<br>'.join(w.related_words)
+                self.cards.loc[w.infinitive, 'Definitions'] = definitions
+                self.cards.loc[w.infinitive, 'Examples'] = examples
+                self.cards.loc[w.infinitive, 'Related'] = related
+            else:
+                self.unresolved.append(w.word)
 
-    def add_wiktionary_info(self):
-        for word in self.words.index:
-            query = scraper.Word(word)
-            query.wiktionary()
-            print(query.wiktionary_html)
-            self.words.loc[word, 'Wiktionary'] = query.wiktionary_html
-
-    def write_definitions(self):
-        out = os.path.join("~/scratch", "definitions.txt")
-        out_anki = os.path.join("~/scratch", "anki.txt")
-        self.words.to_csv(out)
-        self.anki_file.to_csv(out_anki, header=False)
-
-    def create_cards(self):
-        pass
+    def write(self):
+        import time
+        out_words = os.path.join("~/Google Drive/memworth", "words.txt")
+        out_anki = "anki_{}.txt".format(time.strftime('%d-%m-%Y'))
+        out_anki = os.path.join("~/Google Drive/memworth", out_anki)
+        self.words.to_csv(out_words, mode="a")
+        self.cards.to_csv(out_anki, header=False)
