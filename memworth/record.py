@@ -31,7 +31,7 @@ class Record:
             if w.definitions:
                 w.definitions.insert(0, media['definities'])
                 w.examples.insert(0, media['voorbeelden'])
-                w.related.insert(0, media['gereleateerde'])
+                w.related_words.insert(0, media['gerelateerde'])
                 definitions = '<br>'.join(w.definitions)
                 examples = '<br>'.join(w.examples)
                 related = '<br>'.join(w.related_words)
