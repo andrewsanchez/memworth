@@ -19,5 +19,3 @@ def test_extract_phrases(record):
 def test_populate(record):
     record.populate()
     record.write()
-    print(record.words)
-    print(record.cards)

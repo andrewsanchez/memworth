@@ -1,25 +1,25 @@
+from requests import Response
+from pprint import pprint
+
 def test_base_word(conjugated):
     infinitive, w = conjugated
+    assert isinstance(w.response, Response)
     assert infinitive == w.infinitive
 
 
 def test_define(words):
-    print()
-    for d in words.definitions:
-        print(d)
-    assert words.definitions
+    pprint(words.definitions)
+    assert isinstance(words.definitions, list)
 
 
 def test_get_examples(words):
-    print()
-    for e in words.examples:
-        print(e)
-    assert words.examples
+    pprint(words.examples)
+    assert isinstance(words.examples, list)
 
 
 def test_get_related(words):
-    print(words.related_words)
-    assert words.related_words
+    pprint(words.related_words)
+    assert isinstance(words.related_words, list)
 
 
 def test_summary(conjugated):
