@@ -5,13 +5,10 @@ from bs4 import BeautifulSoup
 
 
 class Word:
-    def __init__(self, word, local=None):
+    def __init__(self, word):
         self.word = word
         self.infinitive = word
         self.url = "http://www.woorden.org/woord/{}".format(word)
-        if local:
-            self.url = local
-        self.make_soup(self.url)
         self.session = requests.Session()
         self.examples = []
         self.related_words = []
