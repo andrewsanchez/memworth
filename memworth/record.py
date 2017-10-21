@@ -27,6 +27,7 @@ class Record:
     def populate(self):
         for word in self.words.index:
             w = Word(word)
+            w.get_response()
             w.get_word_data()
             if w.definitions:
                 w.definitions.insert(0, media['definities'])

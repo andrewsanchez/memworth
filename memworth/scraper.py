@@ -12,13 +12,16 @@ class Word:
         if local:
             self.url = local
         self.make_soup(self.url)
+        self.session = requests.Session()
         self.examples = []
         self.related_words = []
         self.definitions = []
 
-    def make_soup(self, url):
-        r = requests.get(url)
-        self.soup = BeautifulSoup(r.text, "lxml")
+    def get_response(self):
+        self.response = self.session.get(self.url)
+
+    def make_soup(self):
+        self.soup = BeautifulSoup(self.response.text, "html.parser")
 
     def raw_html(self, results):
         html = bytes(str(results), 'utf8').decode()
@@ -78,6 +81,7 @@ class Word:
             self.related_words = ['']
 
     def get_word_data(self):
+        self.make_soup()
         self.base_word()
         self.define()
         if self.definitions:
